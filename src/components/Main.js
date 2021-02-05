@@ -60,14 +60,11 @@ function CompletedScreen({ todo }) {
 const Tab = createBottomTabNavigator();
 
 const Main = ({ todoList }) => {
-  console.log(todoList, "kkkkkk");
   return (
     <Tab.Navigator
       tabBarOptions={{
-        activeTintColor: Colors.red,
+        activeTintColor: Colors.blue,
         inactiveTintColor: Colors.black,
-        activeBackgroundColor: Colors.blue,
-        inactiveBackgroundColor: Colors.green,
         labelStyle: {
           fontSize: 20,
           fontWeight: "bold",
